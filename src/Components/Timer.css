@@ -21,6 +21,7 @@
     border-radius: 8px;
     border: hidden;
     font-size: large;
+    padding-left: 9px;
 }
 .output-box{
     display: flex;
@@ -50,4 +51,10 @@
 }
 .timer-btn:hover{
     background-color: aquamarine;
+}
+.timer-btn:active{
+    margin-top: 5px;
+    border: 2px solid white;
+    background-color: aqua;
+    transition: .6s;
 }
